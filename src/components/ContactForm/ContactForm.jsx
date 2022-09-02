@@ -32,10 +32,9 @@ export default function ContactForm({onSubmit}) {
     onSubmit({ name, number });
     reset();
   };
-
-
+  
       return (
-      <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit}>
         <Label>
           Name
           <input
